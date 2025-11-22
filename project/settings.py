@@ -286,7 +286,7 @@ JAZZMIN_SETTINGS = {
     # Whether to link font from fonts.googleapis.com (use custom_css to supply font otherwise)
     "use_google_fonts_cdn": True,
     # Whether to show the UI customizer on the sidebar
-    "show_ui_builder": True,
+    "show_ui_builder": False,
 
     ###############
     # Change view #
@@ -341,4 +341,5 @@ import os
 MEDIA_URL="/media/"
 
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+
 
